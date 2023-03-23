@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s linear;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+html {
+  font-size: 65.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.video img {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.rf {
+  text-align: center;
+  font-size: 5rem;
+  color: #fff;
+  padding-top: 1rem;
+}
+.rf span {
+  font-size: 5.5rem;
+  color: #d85260;
+  text-shadow: 4px 3px 3px #fff;
+}
+.register {
+  padding: 1rem;
+  font-size: 2rem;
+  color: #fff;
+
+  text-align: center;
+}
+.register form {
+  position: absolute;
+  top: 7rem;
+  left: 82rem;
+  border: 0.2rem solid #fff;
+
+  border-radius: 1rem;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+.register form td input {
+  width: 62%;
+
+  padding: 1rem;
+
+  text-transform: none;
+  font-size: 2rem;
+  border-radius: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem;
+}
+.register form td {
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 0 1rem;
+}
+.register form .gender {
+  display: flex;
+
+  justify-content: center;
+  font-size: 3rem;
+}
+.register form .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2.8rem;
+  border-radius: 5rem;
+  border-top-left-radius: 0;
+  border: 0.2rem solid #f6f6f6;
+  cursor: pointer;
+  background: none;
+  color: #c5c5c5;
+  font-size: 2rem;
+  overflow: hidden;
+  z-index: 0;
+  font-family: "Playfair Display", serif;
+  position: relative;
+}
+.register form .btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #130f40;
+  z-index: -1;
+
+  transition: 0.2s linear;
+
+  clip-path: circle(0% at 0% 5%);
+}
+
+.register form .btn:hover::before {
+  clip-path: circle(100%);
+}
+.register form .btn:hover {
+  background: #d85260;
+  color: #fff;
+}
+.register form td select {
+  font-size: 2rem;
+  background: rgba(240, 44, 44, 0.5);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.register form td .term {
+  display: flex;
+  font-size: 2rem;
+}
+.register form td .term span {
+  position: relative;
+  top: 1rem;
+  left: -7rem;
+}
+
+.register h2 {
+  font-size: 5rem;
+  position: absolute;
+  bottom: 93rem;
+  background: rgba(240, 44, 44, 0.5);
+
+  right: 92rem;
+  text-shadow: 3px 3px 4px #000;
+
+  width: 57rem;
+  border-radius: 2rem;
+  text-align: center;
+}

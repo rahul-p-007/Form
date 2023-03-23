@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+       <title>Form</title>
+       <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video"><img src="https://images.unsplash.com/photo-1518965493882-35b838ace024?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lmfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""></div>
+    <h1>
+       <div class='rf'><span> Registration</span> Form</h1>
+       </div>
+    <div class="register">
+        <h2>Regsiter Here</h2>
+<form method="POST" action='' id="register">
+    <table>
+    <tr>
+       <td>UserName</td>
+       <td>
+       <input type='text' name='username' id='username'>
+       <div id='user'></div>
+       </td>
+    </tr>
+    <tr>
+       <td>Email</td>
+       <td><input type='text' name='email' id='email'>
+       <div id ='eml'></div>
+       </td>
+    </tr>
+    <tr>
+       <td>Password</td>
+       <td><input type='password' name='pwd' id='pwd'>
+       <div id='passwd'></div>
+       </td>
+    </tr>
+    <tr>
+       <td>Confirm Password</td>
+       <td><input type='password' name='cpwd' id='cpwd'>
+       <div id='conpasswd'></div>
+       </td>
+    </tr>
+    <tr>
+       <td>Mobile</td>
+       <td><input type='number' name='mob' id='mob'>
+       <div id ='mobile'></div>
+       </td>
+    </tr>
+    <tr>
+       <td>Gender</td>
+       <td>
+           <div class="gender">
+       <label ><input type='radio' name='gender' value='Male'>Male</label>
+       <label><input type='radio' name='gender' value='Female'>Female</label>
+       </td>
+    </div>
+    </tr>
+    <tr>
+    <td>State</td>
+    <td>
+    <select id='state' name='state'>
+    <option value=''>--Select State--</option>
+    <option value='WestBengal'>WestBengal</option>
+    <option value='Andhrapradesh'>Andhrapradesh</option>
+    <option value='Jharkhand'>Jharkhand</option>
+    </select>
+    </tr>
+    <tr>
+    <td></td>
+    <td><label class="term"><input type='checkbox' name='terms' id='terms' value='1'><span> Please accept terms and condition</span></label>
+    <div id='chk'></div>
+    </td>
+    </tr>
+    <tr>
+       <td></td>
+       <td><a href="#"><input type='submit' name='reg' value='Register' class="btn" ></a></td>
+    </tr>
+    </table>
+    </form>
+    </div>
+    </body>
+    </html>
