@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@font-face {
+  font-family: form;
+  src: url(Alternity\ Italic.otf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -8,14 +11,14 @@
   transition: 0.2s linear;
   border: none;
   box-sizing: border-box;
-  font-family: "Playfair Display", serif;
+  font-family: form;
 }
 html {
   font-size: 65.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-.video img {
+.video video {
   width: 100%;
   position: fixed;
   top: 0;
@@ -88,7 +91,7 @@ html {
   font-size: 2rem;
   overflow: hidden;
   z-index: 0;
-  font-family: "Playfair Display", serif;
+  font-family: form;
   position: relative;
 }
 .register form .btn::before {
